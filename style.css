@@ -548,5 +548,8 @@ padding-bottom: 0px;
 
   overflow-y:auto;
 }*/
-
+ 
+  body.cart-open .mobile-header{
+    display:none !important;
+  }
 }

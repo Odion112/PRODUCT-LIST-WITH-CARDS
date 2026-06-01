@@ -359,25 +359,15 @@ cartIconBtn.addEventListener("click", () => {
 
   cart.classList.add("active");
 
-  mobileHeader.style.display = "none";
+  document.body.classList.add("cart-open");
 
 });
-
 
 closeCart.addEventListener("click", () => {
 
   cart.classList.remove("active");
 
-  mobileHeader.style.display = "flex";
+  document.body.classList.remove("cart-open");
 
 });
 
- window.addEventListener("resize", () => {
-
-  if(window.innerWidth > 768){
-
-    cart.classList.remove("active");
-
-  }
-
-});
