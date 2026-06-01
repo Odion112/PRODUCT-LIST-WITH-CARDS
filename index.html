@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  <title>Dessert Cart</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+
+<!--Left Side-->
+
+<section class="desserts"> 
+
+
+<!--Mobile header-->
+<div class="mobile-header">
+<h1  class="mobile-title" > Desserts</h1>
+  <button class="cart-icon-btn">
+
+    <img
+      src="images/icon-add-to-cart.svg"
+      alt="Cart"
+    >
+
+    <span id="mobile-cart-count">
+      0
+    </span>
+
+  </button>
+
+</div>
+
+
+<!---Product cards-->
+<h1> Desserts</h1>
+
+<div class="dessert-grid">
+  
+    <!-- CARD 1 -->
+     <div class="card" data-name="Waffle with Berries">
+
+  <div class="image-container">
+
+    <img src="images/image-waffle-desktop.jpg" alt="waffle">
+
+    <!-- Add To Cart Button -->
+
+    <button class="add-btn">
+      <img src="images/icon-add-to-cart.svg" alt="">
+      Add to Cart
+    </button>
+
+    <!-- Quantity Controls -->
+
+    <div class="quantity-controls hidden">
+
+      <button class="decrease">
+        <img src="images/icon-decrement-quantity.svg" alt="">
+      </button>
+
+      <span class="quantity">1</span>
+
+      <button class="increase">
+        <img src="images/icon-increment-quantity.svg" alt="">
+      </button>
+
+    </div>
+
+  </div>
+
+  <div class="card-info">
+    <p class="category">Waffle</p>
+    <h3>Waffle with Berries</h3>
+    <p class="price">$6.50</p>
+  </div>
+
+</div>
+
+        <!-- CARD 2 -->
+
+         <div class="card" data-name="Vanilla Bean Crème Brûlée">
+
+  <div class="image-container">
+<img src="images/image-creme-brulee-desktop.jpg" alt="Creme Brulee">
+
+    <!-- Add To Cart Button -->
+
+    <button class="add-btn">
+      <img src="images/icon-add-to-cart.svg" alt="">
+      Add to Cart
+    </button>
+
+    <!-- Quantity Controls -->
+
+    <div class="quantity-controls hidden">
+
+      <button class="decrease">
+        <img src="images/icon-decrement-quantity.svg" alt="">
+      </button>
+
+      <span class="quantity">1</span>
+
+      <button class="increase">
+        <img src="images/icon-increment-quantity.svg" alt="">
+      </button>
+
+    </div>
+
+  </div>
+
+   <div class="card-info">
+        <p class="category">Crème Brûlée</p>
+        <h3>Vanilla Bean Crème Brûlée</h3>
+      <p class="price">$7.00</p>
+  </div>
+
+</div>
+
+        <!-- CARD 3 -->
+
+         <div class="card" data-name="Macaron Mix of Five">
+
+  <div class="image-container">
+<img src="images/image-macaron-desktop.jpg" alt="Macaron">
+
+    <!-- Add To Cart Button -->
+
+    <button class="add-btn">
+      <img src="images/icon-add-to-cart.svg" alt="">
+      Add to Cart
+    </button>
+
+    <!-- Quantity Controls -->
+
+    <div class="quantity-controls hidden">
+
+      <button class="decrease">
+        <img src="images/icon-decrement-quantity.svg" alt="">
+      </button>
+
+      <span class="quantity">1</span>
+
+      <button class="increase">
+        <img src="images/icon-increment-quantity.svg" alt="">
+      </button>
+
+    </div>
+
+  </div>
+
+   <div class="card-info">
+       <p class="category">Macaron</p>
+       <h3>Macaron Mix of Five</h3>
+          <p class="price">$7.00</p>
+      </div>
+
+</div>
+
+        <!-- CARD 4 -->
+
+        <div class="card" data-name="Tiramisu">
+
+  <div class="image-container">
+<img src="images/image-tiramisu-desktop.jpg" alt="Tiramisu">
+
+    <!-- Add To Cart Button -->
+
+    <button class="add-btn">
+      <img src="images/icon-add-to-cart.svg" alt="">
+      Add to Cart
+    </button>
+
+    <!-- Quantity Controls -->
+
+    <div class="quantity-controls hidden">
+
+      <button class="decrease">
+        <img src="images/icon-decrement-quantity.svg" alt="">
+      </button>
+
+      <span class="quantity">1</span>
+
+      <button class="increase">
+        <img src="images/icon-increment-quantity.svg" alt="">
+      </button>
+
+    </div>
+
+  </div>
+
+   <div class="card-info">
+    <p class="category">Tiramisu</p>
+    <h3>Classic Tiramisu</h3>
+    <p class="price">$5.50</p>
+</div>
+
+</div>
+
+        <!-- CARD 5 -->
+
+        <div class="card" data-name="Baklava">
+
+  <div class="image-container">
+  <img src="images/image-baklava-desktop.jpg" alt="Baklava">
+
+    <!-- Add To Cart Button -->
+
+    <button class="add-btn">
+      <img src="images/icon-add-to-cart.svg" alt="">
+      Add to Cart
+    </button>
+
+    <!-- Quantity Controls -->
+
+    <div class="quantity-controls hidden">
+
+      <button class="decrease">
+        <img src="images/icon-decrement-quantity.svg" alt="">
+      </button>
+
+      <span class="quantity">1</span>
+
+      <button class="increase">
+        <img src="images/icon-increment-quantity.svg" alt="">
+      </button>
+
+    </div>
+
+  </div>
+
+   <div class="card-info">
+    <p class="category">Baklava</p>
+    <h3>Pistachio Baklava</h3>
+    <p class="price">$3.00</p>
+</div>
+
+</div>
+
+        <!-- CARD 6 -->
+
+        <div class="card" data-name="Lemon Menrigue Pie">
+
+  <div class="image-container">
+  <img src="images/image-meringue-desktop.jpg" alt="Menrigue">
+
+    <!-- Add To Cart Button -->
+
+    <button class="add-btn">
+      <img src="images/icon-add-to-cart.svg" alt="">
+      Add to Cart
+    </button>
+
+    <!-- Quantity Controls -->
+
+    <div class="quantity-controls hidden">
+
+      <button class="decrease">
+        <img src="images/icon-decrement-quantity.svg" alt="">
+      </button>
+
+      <span class="quantity">1</span>
+
+      <button class="increase">
+        <img src="images/icon-increment-quantity.svg" alt="">
+      </button>
+
+    </div>
+
+  </div>
+
+   <div class="card-info">
+    <p class="category">Pie</p>
+    <h3>Lemon Meringue Pie</h3>
+    <p class="price">$7.00</p>
+</div>
+
+</div>
+
+        <!-- CARD 7 -->
+
+        <div class="card" data-name="Red Velvet">
+
+  <div class="image-container">
+  <img src="images/image-cake-desktop.jpg" alt="Cake">
+
+    <!-- Add To Cart Button -->
+
+    <button class="add-btn">
+      <img src="images/icon-add-to-cart.svg" alt="">
+      Add to Cart
+    </button>
+
+    <!-- Quantity Controls -->
+
+    <div class="quantity-controls hidden">
+
+      <button class="decrease">
+        <img src="images/icon-decrement-quantity.svg" alt="">
+      </button>
+
+      <span class="quantity">1</span>
+
+      <button class="increase">
+        <img src="images/icon-increment-quantity.svg" alt="">
+      </button>
+
+    </div>
+
+  </div>
+
+   <div class="card-info">
+  <p class="category">Cake</p>
+  <h3>Red Velvet</h3>
+  <p class="price">$7.00</p>
+</div>
+
+</div>
+
+
+        <!-- CARD 8 -->
+
+        <div class="card" data-name="Salated Caramel Brownie">
+
+  <div class="image-container">
+  <img src="images/image-brownie-desktop.jpg" alt="Brownie">
+
+    <!-- Add To Cart Button -->
+
+    <button class="add-btn">
+      <img src="images/icon-add-to-cart.svg" alt="">
+      Add to Cart
+    </button>
+
+    <!-- Quantity Controls -->
+
+    <div class="quantity-controls hidden">
+
+      <button class="decrease">
+        <img src="images/icon-decrement-quantity.svg" alt="">
+      </button>
+
+      <span class="quantity">1</span>
+
+      <button class="increase">
+        <img src="images/icon-increment-quantity.svg" alt="">
+      </button>
+
+    </div>
+
+  </div>
+
+   <div class="card-info">
+  <p class="category">Brownie</p>
+  <h3>Salted Caramel Brownie</h3>
+  <p class="price">$3.00</p>
+</div>
+
+</div>
+        <!-- CARD 9 -->
+
+             <div class="card" data-name="Vanilla Panna Cotta">
+
+  <div class="image-container">
+  <img src="images/image-panna-cotta-desktop.jpg" alt="Panna Cotta">
+
+    <!-- Add To Cart Button -->
+
+    <button class="add-btn">
+      <img src="images/icon-add-to-cart.svg" alt="">
+      Add to Cart
+    </button>
+
+    <!-- Quantity Controls -->
+
+    <div class="quantity-controls hidden">
+
+      <button class="decrease">
+        <img src="images/icon-decrement-quantity.svg" alt="">
+      </button>
+
+      <span class="quantity">1</span>
+
+      <button class="increase">
+        <img src="images/icon-increment-quantity.svg" alt="">
+      </button>
+
+    </div>
+
+  </div>
+
+   <div class="card-info">
+  <p class="category">Panna Cotta</p>
+  <h3>Vanilla Panna Cotta</h3>
+  <p class="price">$6.50</p>
+</div>
+</div>
+</div>
+        </section>
+
+<!--Right Side (Cart)-->
+
+<aside class="cart">
+ 
+   <div class="mobile-cart-header">
+
+  <h2>
+    Your Cart (<span id="mobile-cart-screen-count">0</span>)
+  </h2>
+
+  <button class="close-cart">
+    ✕
+  </button>
+
+</div>
+
+  <h2>
+    Your Cart (<span id="cart-count">0</span>)
+  </h2>
+
+  <!-- EMPTY CART STATE -->
+
+  <div class="empty-cart">
+
+    <img
+      src="images/illustration-empty-cart.svg"
+      alt="Empty Cart">
+      <p>Your added items will appear here</p>
+  </div>
+
+  <!-- FILLED CART STATE -->
+
+<div class="cart-items hidden">
+</div>
+
+    <!-- CART ITEM
+
+    <div class="cart-item">
+
+     <div class="cart-item-info">
+
+        <h4>Classic Tiramisu</h4>
+
+        <div class="cart-details">
+
+          <span class="qty">1x</span>
+
+          <span class="unit-price">@ $5.50</span>
+
+          <span class="total-price">$5.50</span>
+
+        </div>
+
+      </div>
+
+      <button class="remove-item">
+
+        <img
+          src="images/icon-remove-item.svg"
+          alt="Remove Item"
+        >
+
+      </button>
+
+    </div>
+
+  </div>  -->
+
+  <!-- CART TOTAL -->
+
+  <div class="cart-total hidden">
+
+    <div class="order-total">
+
+      <span>Order Total</span>
+
+      <strong id="order-total">
+        $5.50
+      </strong>
+
+    </div>
+
+    <div class="carbon-note">
+
+      <img
+        src="images/icon-carbon-neutral.svg"
+        alt=""
+      >
+
+      <p>
+        This is a
+        <strong>carbon-neutral</strong>
+        delivery
+      </p>
+
+    </div>
+
+    <button class="confirm-order">
+
+      Confirm Order
+
+    </button>
+
+  </div>
+
+</aside>
+
+  </main>
+  
+    <script src="script.js"></script>
+</body>
+</html>
